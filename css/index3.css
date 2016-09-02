@@ -1,0 +1,237 @@
+*{
+  padding:0;
+  margin:0;
+  list-style: none;
+  font-family: 宋体;
+  border:none;
+}
+
+a{
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover{
+  color: red;
+  text-decoration: underline;
+}
+img{
+  border: 0;
+}
+body{
+  background: #000;
+}
+/*顶部*/
+ .ding{
+  width: 1002px;height: 102px;
+  margin:0 auto;
+  position: relative;
+ }
+
+ .dingbox{
+  width:300px;height: 102px;
+  position: absolute;
+  right: 0;
+ }
+ .dingbox li{
+  font-size:24px;
+  color: #fff;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 10px;
+ }
+ .dtext{
+  margin-top: 25px;
+  text-align: right;
+  margin-right: 10px;
+ }
+
+/*nav*/
+ .nav{
+  width: 902px;height: 57px;
+  background:url("../img/beijing.png")!important;
+  padding-left: 100px;
+ }
+ .nav li{
+  float: left;
+  color: #fff;
+  margin-right: 10px;
+  line-height: 47px;
+  font-size: 14px;
+ }
+
+/*box*/
+.box{
+  width: 1002px;height: auto;
+  background: #E5E5E3;
+  margin: 0 auto;
+  
+}
+.boxs{
+  width: 980px;height: auto;
+  margin: 0 auto;
+  background: #fff;
+ /* position: absolute;
+  top:150px;
+  left: 174px;*/
+}
+ .banner{
+  width:982px;height: 302px;
+  background: #333;
+  margin: 0 auto;
+  position: relative;
+ }
+ .banner a{
+  position: absolute;
+ }
+ .point{
+  width: 63px;height: 20px;
+  position: absolute;
+  bottom: 0;
+  right:0px;
+  z-index: 12;
+ }
+.point li{
+  width: 20px;height: 20px;
+  float: left;
+  margin-right: 1px;
+}
+
+.middle{
+  width: 1002px;height:2000px;
+  height: auto;
+  margin: 10px auto;
+}
+  .midleft{
+  width: 726px;height:auto;
+  border: 3px solid #8B0000;
+  background: #fff;
+  float: left;
+
+ }
+  .midlbot{
+    width: 708px;
+    margin: 0 auto;
+  }
+  .midltop{
+    width: 724px;height: 25px;
+    background: #8B0000;
+    margin: 1px;
+  }
+  .midleft h4{
+    margin-left: 20px;
+    margin-top: 16px;
+    color: #505050;
+  }
+  .midleft li{
+    margin-top: 16px;
+    text-indent: 2em;
+  }
+  .midright{
+    width: 256px;height:auto;
+    background: #DCDCDC;
+    float: right;
+    padding: 5px;
+  }
+  .midright img{
+    width: 80%;height: 80%;
+    display: block;
+    margin: 5px auto;
+    margin-bottom: 10px;
+  }
+  .midright li{
+    font-size: 13px;
+    text-indent: 2em;
+  }
+  
+
+  .peix{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    background: #808080;
+    padding: 1px 1px;
+    margin-bottom: 10px;
+  }
+  .peixtop{
+    width: 1000px;height: 25px;
+    line-height: 25px;
+    background: #8B0000;
+  }
+  .peixbot{
+    width: 980px;height:370px;
+    padding: 10px 20px;
+  }
+  
+  .pximg{
+    width: 156px;height: 190px;
+    float: left;
+    margin-right: 5px;
+  }
+  .pximg img{
+    width: 152px;height: 152px;
+    display: block;
+    margin:0 auto;
+    border:2px solid #fff;
+  }
+  .pximg li{
+    text-align: center;
+    margin-top: 5px;
+    color: #fff;
+    font-size: 14px;
+  }
+  .botnav{
+    width: 1002px;
+    height: 57px;
+    background: url(../img/bj.png);
+    line-height: 47px;
+    margin: 0 auto;
+  }
+  .botnav li{
+    float: left;
+    font-size: 12px;
+    color: #fff;
+    margin-left: 12px;
+  }
+  .botnav a{
+    color: #fff;
+  }
+  .botnav a:hover{
+    text-decoration: underline;
+  }
+  .botbian{
+    background: #fff;
+    width:1002px;
+    height: 10px;
+  }
+  .bottom{
+    width: 1002px;height: 80px;
+    background:#fff;
+    color: #000;
+    position: relative;
+    margin: 0 auto;
+  }
+  .botbox{
+    width: 970px;height: 10px;
+    margin-left: 20px;
+    box-shadow: 0px  20px 40px #676764;
+    border-top: 1px solid #ccc;
+    position: absolute;
+    top:-10px;
+
+  }
+  .neir{
+    width: 1000px; height: 80px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    color: #464646;
+    position: absolute;
+    top:10px;
+  }
+  .bottom img{
+    position: absolute;
+    right: 140px;
+    top:-10px;
+    width: 90px;height: 90px;
+  }

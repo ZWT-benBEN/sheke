@@ -1,0 +1,324 @@
+*{
+	padding:0;
+	margin:0;
+	list-style: none;
+	font-family: 宋体;
+	border:none;
+}
+
+a{
+	text-decoration: none;
+	color: #666;
+}
+
+a:hover{
+	color: red;
+	text-decoration: underline;
+}
+img{
+	border: 0;
+}
+body{
+	background: #000;
+}
+/*顶部*/
+ .ding{
+	width: 1002px;height: 102px;
+	margin:0 auto;
+	position: relative;
+ }
+
+ .dingbox{
+ 	width:300px;height: 102px;
+ 	position: absolute;
+ 	right: 0;
+ }
+ .dingbox li{
+ 	font-size:24px;
+ 	color: #fff;
+ 	font-weight: bold;
+ 	text-align: right;
+  margin-right: 10px;
+ }
+ .dtext{
+ 	margin-top: 25px;
+ 	text-align: right;
+ 	margin-right: 10px;
+ }
+
+/*nav*/
+ .nav{
+ 	width: 902px;height: 57px;
+ 	background:url("../img/beijing.png")!important;
+ 	padding-left: 100px;
+ }
+ .nav li{
+ 	float: left;
+ 	color: #fff;
+ 	margin-right: 10px;
+ 	line-height: 47px;
+ 	font-size: 14px;
+ }
+
+/*box*/
+.box{
+	width: 1002px;height: auto;
+	background: #E5E5E3;
+	margin: 0 auto;
+  
+}
+.boxs{
+	width: 980px;height: auto;
+	margin: 0 auto;
+	background: #fff;
+ /* position: absolute;
+  top:150px;
+  left: 174px;*/
+}
+ .banner{
+ 	width:980px;height: 300px;
+ 	background: #333;
+ 	margin: 0 auto;
+  position: relative;
+ }
+ .banner a{
+  position: absolute;
+ }
+ .point{
+  width: 63px;height: 20px;
+  position: absolute;
+  bottom: 0;
+  right:0px;
+  z-index: 12;
+ }
+.point li{
+  width: 20px;height: 20px;
+  float: left;
+  margin-right: 1px;
+}
+ /*3kuai*/
+  .kuai3{
+  	width: 980px;height: 307px;
+  	margin: 0 auto;
+   	margin-top: 5px;
+  }
+  .kk1{
+  	width: 315px;height: 284px;
+  	border:1px solid #DADADA;
+  	float:left;
+  	margin-left: 5px;
+  	margin-right: 3px;
+  	padding: 10px 20px;
+  }
+  .kk1top{
+  	height: 40px;
+  	color:#FF0000;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+  .kk1 li{
+    font-size: 13px;
+    margin-top: 8px;
+  }
+  .kk1 a{
+    color: black;
+  }
+  .kk1 a:hover{
+    color: red;
+  }
+  .kk2{
+  	width: 358px;height: 304px;
+  	border:1px solid #DADADA;
+  	float:left;
+  	margin-right: 3px;
+    background: #EEEEEE;
+  }
+  .kk2top{
+    height: 25px;
+    background: #696969;
+    line-height: 25px;
+  }
+  .kk2topl{
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+    float: left;
+  }
+  .kk2top2{
+    float: right;
+    color: #fff;
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  .kk2top2 a{
+    color: #fff;
+  }
+  .kk2top2 a:hover{
+    text-decoration: underline;
+  }
+  .kk2bot{
+    height: 279px;
+    padding: 0 30px;
+    margin-top: 20px;
+  }
+  .kk2bot li{
+    font-size: 12px;
+    line-height: 24px;
+  }
+  .kk3{
+  	width: 241px;height: 301px;
+  	border:3px solid #A30200;
+  	float: left;
+  }
+
+  /*图*/
+  .tu{
+  	width: 969px;height: 120px;
+  	margin:5px auto;
+  }
+
+  /*教师团队*/
+  .teachers{
+	width: 972px;height: 316px;
+	margin:0 auto;
+  }
+  /*左*/
+  .tcl{
+  	width: 492px;height: 314px;
+  	border:1px solid #ccc;
+  	margin-right: 5px;
+  	float: left;
+  }
+  /*左上*/
+  .tcltop{
+    height: 25px;
+    background: #B02B2C;
+    line-height: 25px;
+  }
+  .tcltopl{
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+    float: left;
+  }
+  .tcltop2{
+    float: right;
+    color: #fff;
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  .tcltop2 a{
+    color: #fff;
+  }
+  .tcltop2 a:hover{
+    text-decoration: underline;
+  }
+  /*左下*/
+  .tclbot{
+    width: 456px;
+    height: 259px;
+    margin: 0 auto;
+    margin-top: 10px;
+
+  }
+  .tclbot li{
+    width: 82px;height: 102px;
+    border: 1px solid #ccc;
+    float: left;
+    margin-right: 7px;
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .tclbot a{
+    text-decoration: underline;
+  }
+  .tclbot li img{
+    width: 100%;height: 100%;
+  }
+  .tcr{
+  	width: 469px;height: 314px;
+  	border:2px solid #ccc;
+  	float: left;
+  }
+  .tcrl{
+    width: 167px;height: 310px;
+    margin-left: 5px;
+    float: left;
+  }
+  .tcrl img{
+  max-width: 167px;max-height: 120px;
+  margin: 15px 0;
+  }
+  .tcrr{
+    width: 273px;height: 310px;
+    float: right;
+    margin-right: 10px;
+  }
+  .tcrr h3{
+    color: #505050;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .tcrr li{
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 0;
+    text-indent: 1em;
+  }
+  .botnav{
+    width: 1002px;
+    height: 57px;
+    background: url(../img/bj.png);
+    line-height: 47px;
+  }
+  .botnav li{
+    float: left;
+    font-size: 12px;
+    color: #fff;
+    margin-left: 12px;
+  }
+  .botnav a{
+    color: #fff;
+  }
+  .botnav a:hover{
+    text-decoration: underline;
+  }
+  .botbian{
+    background: #fff;
+    width:1002px;
+    height: 10px;
+  }
+  .bottom{
+    width: 1002px;height: 80px;
+    background:#fff;
+    color: #000;
+    position: relative;
+  }
+  .botbox{
+    width: 970px;height: 10px;
+    margin-left: 20px;
+    box-shadow: 0px  20px 40px #676764;
+    position: absolute;
+    top:-10px;
+
+  }
+  .neir{
+    width: 1000px; height: 80px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    color: #464646;
+    position: absolute;
+    top:10px;
+  }
+  .bottom img{
+    position: absolute;
+    right: 140px;
+    top:-10px;
+    width: 90px;height: 90px;
+  }

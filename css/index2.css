@@ -1,0 +1,290 @@
+*{
+  padding:0;
+  margin:0;
+  list-style: none;
+  font-family: 宋体;
+  border:none;
+}
+
+a{
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover{
+  color: red;
+  text-decoration: underline;
+}
+img{
+  border: 0;
+}
+body{
+  background: #000;
+}
+/*顶部*/
+ .ding{
+  width: 1002px;height: 102px;
+  margin:0 auto;
+  position: relative;
+ }
+
+ .dingbox{
+  width:300px;height: 102px;
+  position: absolute;
+  right: 0;
+ }
+ .dingbox li{
+  font-size:24px;
+  color: #fff;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 10px;
+ }
+ .dtext{
+  margin-top: 25px;
+  text-align: right;
+  margin-right: 10px;
+ }
+
+/*nav*/
+ .nav{
+  width: 902px;height: 57px;
+  background:url("../img/beijing.png")!important;
+  padding-left: 100px;
+ }
+ .nav li{
+  float: left;
+  color: #fff;
+  margin-right: 10px;
+  line-height: 47px;
+  font-size: 14px;
+ }
+
+/*box*/
+.box{
+  width: 1002px;height: auto;
+  background: #E5E5E3;
+  margin: 0 auto;
+  
+}
+.boxs{
+  width: 980px;height: auto;
+  margin: 0 auto;
+  background: #fff;
+ /* position: absolute;
+  top:150px;
+  left: 174px;*/
+}
+ .banner{
+  width:980px;height: 300px;
+  background: #333;
+  margin: 0 auto;
+  position: relative;
+ }
+ .banner a{
+  position: absolute;
+ }
+ .point{
+  width: 63px;height: 20px;
+  position: absolute;
+  bottom: 0;
+  right:0px;
+  z-index: 12;
+ }
+.point li{
+  width: 20px;height: 20px;
+  float: left;
+  margin-right: 1px;
+}
+
+  .middle{
+    width: 980px;height: 574px;
+    margin-top: 10px;
+  }
+  .midleft{
+    width: 224px;height: 574px;
+    float: left;
+  }
+  .midltop{
+    width: 224px;height: 209px;
+    background: url(../img/bj2.png);  
+    position: relative;
+  }
+  .midltopbox{
+    width: 210px;height: 20px;
+    margin-left: 8px;
+    border-bottom: 1px solid #e4e4e4;
+    box-shadow:0 10px 20px #ccc ;
+    position: absolute;
+    bottom:0px;
+  }
+  .midltop h4{
+    color: #fff;
+    margin-left: 20px;
+    line-height: 30px;
+  }
+  .midltop li{
+    margin-left: 40px;
+    margin-top: 19px;
+    font-size: 14px;
+  }
+  .midltop img{
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+  .midlbot{
+    width: 224px;height: 349px;
+    background: url(../img/bj2.png);
+    margin-top:16px;
+  }
+  .midlbot h4{
+    color: #fff;
+    margin-left: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  .midlbot li{
+    width: 170px;
+    margin-left: 20px;
+    font-size: 12px;
+  }
+  .midlbot img{
+    width: 130px;height: 130px;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .qq{
+    width: 330px;height: 33px;
+  }
+  .midlbot .qq img{
+    width: 80px;height: 28px;
+    float: left;
+    margin-left: 10px;
+  }
+ 
+  .midright{
+    width: 754px;height: 574px;
+    float: left;
+
+  }
+  .midrtop1{
+    width: 754px;height: 146px;
+    border:1px solid #ccc;
+    margin-bottom: 5px;
+  }
+  .midrtop1 img{
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  .midrtop2{
+    width: 754px;height: 146px;
+    border:1px solid #ccc;
+    margin-bottom: 5px;
+  }
+  .midrtop2 img{
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  .midrbot1{
+    width: 356px;height: 255px;
+    border: 1px solid #ccc;
+    float: left;
+    margin-right: 17px;
+  }
+   .midrbot2{
+    width: 376px;height: 255px;
+    border: 1px solid #ccc;
+    float: right;
+  }
+  .midrbotbox{
+    height: 25px;
+    background: #B01F30;
+    line-height: 25px;
+  }
+  .midrbotbox h5{
+    color: white;
+    margin-left: 20px;
+    float: left;
+  }
+  .midrbotbox span{
+    float: right;
+    margin-right: 10px;
+    font-size: 12px;
+    color: #fff;
+  }
+  .midrbot1 img{
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .midrbot2 img{
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .midrb{
+    margin-top: 23px;
+  }
+  .midrb li{
+    margin-left: 50px;
+    font-size: 12px;
+    margin-top: 9px;
+  }
+
+
+
+
+  .botnav{
+    width: 1002px;
+    height: 57px;
+    background: url(../img/bj.png);
+    line-height: 47px;
+  }
+  .botnav li{
+    float: left;
+    font-size: 12px;
+    color: #fff;
+    margin-left: 12px;
+  }
+  .botnav a{
+    color: #fff;
+  }
+  .botnav a:hover{
+    text-decoration: underline;
+  }
+  .botbian{
+    background: #fff;
+    width:1002px;
+    height: 10px;
+  }
+  .bottom{
+    width: 1002px;height: 80px;
+    background:#fff;
+    color: #000;
+    position: relative;
+  }
+  .botbox{
+    width: 970px;height: 10px;
+    margin-left: 20px;
+    box-shadow: 0px  20px 40px #676764;
+    border-top: 1px solid #ccc;
+    position: absolute;
+    top:-10px;
+
+  }
+  .neir{
+    width: 1000px; height: 80px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    color: #464646;
+    position: absolute;
+    top:10px;
+  }
+  .bottom img{
+    position: absolute;
+    right: 140px;
+    top:-10px;
+    width: 90px;height: 90px;
+  }
